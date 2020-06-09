@@ -1,0 +1,703 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=DM+Serif+Display&family=Montserrat&family=Rozha+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    border: 2px solid #fcd661;
+    width: 100vw;
+    height: auto;
+    border-radius: 10px;
+    background-color: #fcd661;
+}
+
+.inner-main {
+    width: 80%;
+    height: auto;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 40px;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-areas: "x y";
+}
+.main-content {
+    width: 100%;
+    height: auto;
+    grid-area: x;
+    border-radius: 40px 0 0 40px;
+}
+.side-content {
+    grid-area: y;
+    border: .5px solid #f0f0f0;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-radius: 0 40px 40px 0;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fa-bars {
+    margin: 30px 25px 25px 10px;
+    padding-top: 10px;
+    font-size: 1.3rem;
+    height: fit-content;
+    width: fit-content;
+}
+.name {
+    margin: 30px 0;
+    font-size: 1.7rem;
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Muli', sans-serif;
+}
+
+input[type=search] {
+    width: 50%;
+    height: 40px;
+    border-radius: 15px;
+    padding: 15px 60px;
+    margin: 30px;
+    background-color: #f8f8f8;
+    border: none;
+    outline: none;
+    color: #c5c5c5;
+    cursor: pointer;
+}
+.icon {
+    position: relative;
+    left: 70px;
+    top: 38px;
+}
+.first-content {
+    width: 85%;
+    height: auto;
+    border: 2px solid #fef7ec;
+    border-radius: 20px;
+    margin: 20px auto;
+    background-color: #fef7ec;
+    display: grid;
+    grid-template-columns: 30% 45% 25%;
+    grid-template-areas: "a b c"
+}
+.imgillus {
+    grid-area: a;
+    width: 100%;
+    height: 25vh;
+    border-radius: 20px 0 0 20px;
+    background-image: url(img/illus2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div .delivery {
+    grid-area: b;
+    padding: 20px 20px 0;
+    font-size: 1.28rem;
+    margin: 30px auto 0;
+    color: #f4764b;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+}
+.fee {
+    text-align: justify;
+    font-size: 5px;
+    padding: 10px 20px 0;
+    color: #c5c5c5;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+}
+.learn {
+    grid-area: c;
+    display: inline-block;
+    text-align: end;
+    justify-content: center;
+    align-self: end;
+    margin: 20px;
+}
+.learn a {
+    text-decoration: none;
+    font-family: 'Muli', sans-serif;
+    font-size: .7rem;
+    color: #f0aa89;
+    cursor: pointer;
+}
+.learn a:hover,
+.fa-arrow-right:hover {
+    color: #9a2dbb;
+    font-weight: bolder;
+    transition: all .5s;
+}
+.fa-arrow-right {
+    font-size: .7rem;
+    color: #f0aa89;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.second-content-header {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+.restaurant {
+    font-family: 'Muli', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.iconz {
+    position: relative;
+    left: 40px;
+    top: 2px;
+}
+.deliver-now {
+    border-radius: 20px;
+    border: none;
+    background-color: #fa6d3b;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    padding: 10px 30px;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+}
+.fa-clock {
+    color: #ffffff;
+    padding-right: 10px;
+    font-size: 1.2rem;
+}
+
+.second-content {
+    width: 85%;
+    height: auto;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    padding: 10px 0;
+    margin: 40px auto;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-areas: 
+    "ay aby acy ady aey afy agy ahy . ajy";
+}
+.content-inner1 {
+    grid-area: ay;
+    border: 1px solid #f1ecec;
+    width: 60px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 5px 15px 15px #d3cfcf;
+}
+.meal {
+    border: 1px solid #f7f7f7;
+    background-color: #f7f7f7;
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    margin: 5px auto;
+}
+.meal:hover {
+    background-color: #ffffff;
+    border: #ffffff;
+}
+.fa-concierge-bell {
+    position: relative;
+    top: 8px;
+    left: 12px;
+    font-size: 1.2rem;
+}
+.text {
+    font-size: .7rem;
+    font-family: 'Muli', sans-serif;
+    padding-top: 5px;
+    font-weight: bolder;
+    text-align: center;
+}
+.content-inner2 {
+    grid-area: aby;
+    border: 1px solid #f1ecec;
+    width: 60px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 5px 15px 15px #d3cfcf;
+}
+.fa-pizza-slice {
+    position: relative;
+    top: 8px;
+    left: 12px;
+    font-size: 1.2rem;
+}
+.content-inner3 {
+    grid-area: acy;
+    border: 1px solid #f1ecec;
+    width: 60px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 5px 15px 15px #d3cfcf;
+}
+.flaticon-noodles {
+    position: relative;
+    top: 8px;
+    left: -8px;
+    font-size: 1.2rem;
+}
+.content-inner4 {
+    grid-area: ady;
+    border: 1px solid #f1ecec;
+    width: 60px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 5px 15px 15px #d3cfcf;
+}
+.fa-hamburger {
+    position: relative;
+    top: 8px;
+    left: 12px;
+    font-size: 1.2rem;
+}
+.content-inner5 {
+    grid-area: aey;
+    border: 1px solid #f1ecec;
+    width: 60px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 5px 15px 15px #d3cfcf;
+}
+.fa-drumstick-bite {
+    position: relative;
+    top: 8px;
+    left: 12px;
+    font-size: 1.2rem;
+}
+.content-inner6 {
+    grid-area: afy;
+    border: 1px solid #f1ecec;
+    width: 60px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 5px 15px 15px #d3cfcf;
+}
+.fa-ice-cream {
+    position: relative;
+    top: 8px;
+    left: 12px;
+    font-size: 1.2rem;
+}
+.content-inner7 {
+    grid-area: agy;
+    border: 1px solid #f1ecec;
+    width: 60px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 5px 15px 15px #d3cfcf;
+}
+.flaticon-thai-food {
+    position: relative;
+    top: 8px;
+    left: -8px;
+    font-size: 1.2rem;
+}
+.content-inner8 {
+    grid-area: ahy;
+    border: 1px solid #f1ecec;
+    width: 60px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 5px 15px 15px #d3cfcf;
+}
+.flaticon-sushi {
+    position: relative;
+    top: 8px;
+    left: -8px;
+    font-size: 1.2rem;
+}
+.content-inner10 {
+    grid-area: ajy;
+    border: 1px solid #f9f9f9;
+    background-color: #f9f9f9;
+    width: 35px;
+    height: 35px;
+    border-radius: 12px;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+}
+.content-inner10:hover {
+    background-color: #f0f0f0;
+    border: #f0f0f0;
+    cursor: pointer;
+}
+.next-arrow {
+    justify-content: center;
+    align-self: center;
+}
+.content-inner1:hover,
+.content-inner2:hover,
+.content-inner3:hover,
+.content-inner4:hover,
+.content-inner5:hover,
+.content-inner6:hover,
+.content-inner7:hover,
+.content-inner8:hover,
+.content-inner9:hover {
+    background-color: #fbd560;
+    border: #fbd560;
+    transition: all .8s;
+    cursor: pointer;
+}
+
+.third-content {
+    width: 85%;
+    height: auto;
+    margin: 50px auto;
+    padding: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-template-areas: "x y z"
+}
+.inner-content1 {
+    grid-area: x;
+}
+.inner-content2 {
+    grid-area: y;
+}
+.inner-content3 {
+    grid-area: z;
+}
+.image1 {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    background-image: url(img/bagel-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.min {
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    font-size: .7rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: bolder;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 0 10px 0 10px;
+}
+.image2 {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    background-image: url(img/estaminet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.image3 {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    background-image: url(img/LaParisDakar.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.txt {
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 30px 0 20px 0;
+}
+.reviews {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+}
+.fa-star {
+    padding-right: 10px;
+}
+.fa-star:hover {
+    color: #fb5c00;
+    cursor: pointer;
+}
+.textz {
+    padding-right: 10px;
+    font-size: .9rem;
+    font-family: 'Muli', sans-serif;
+}
+.textx {
+    padding-right: 5px;
+    color: #999999;
+    font-size: .85rem;
+    font-family: 'Muli', sans-serif;
+}
+.side-content {
+    background-color: #fcfcfa;
+}
+.side-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.fa-user {
+    font-size: 1.2rem;
+    margin: 40px 10px;
+}
+.numb {
+    width: fit-content;
+    height: fit-content;
+    margin: 30px 40px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: 1px solid #fcd661;
+    background-color: #fcd661;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.numb:hover {
+    color: #ffffff;
+    background-color: #ff8800;
+    border: 1px solid #ff8800;
+    transition: all .3s;
+}
+.order {
+    margin: 30px;
+    font-size: 1.3rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: bolder;
+}
+.purple {
+    width: 85%;
+    height: 130px;
+    border-radius: 20px;
+    background-color: #503e9d;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.six {
+    color: #ffffff;
+    font-family: 'Muli', sans-serif;
+    padding: 20px 0 0 15px;
+    font-size: .85rem;
+}
+.edit {
+    color: #e8c77c;
+    padding: 20px 15px 0 40px;
+    font-size: 1rem;
+}
+.orange {
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin: 5px 5px 5px 15px;
+    border-radius: 10px;
+    color: #e8c77c;
+    background-color: #614c97;
+    justify-content: center;
+    align-self: center;
+    cursor: pointer;
+}
+.orange:hover {
+    color: #ffffff;
+    background-color: #251847;
+    transition: ease-in .5s;
+}
+.timez {
+    color: #ffffff;
+    font-size: .8rem;
+    font-family: 'Muli', sans-serif;
+    padding: 5px;
+    justify-content: center;
+    align-self: center;
+}
+.choose {
+    color: #e8c77c;
+    font-size: .8rem;
+    font-family: 'Muli', sans-serif;
+    padding: 0px 10px;
+    justify-content: center;
+    align-self: center;
+}
+.order-placed {
+    width: auto;
+    height: auto;
+    margin: 30px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.img-order1 {
+    width: 65px;
+    height: 40px;
+    margin: 10px 10px 0 0;
+    background-image: url(img/beachBurger.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.img-order2 {
+    width: 65px;
+    height: 40px;
+    margin: 10px 10px 0 0;
+    background-image: url(img/french-fries.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.img-order3 {
+    width: 65px;
+    height: 40px;
+    margin: 10px 10px 0 0;
+    background-image: url(img/cheeseSauce.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.img-order4 {
+    width: 65px;
+    height: 40px;
+    padding: 7px 17px;
+    border: 1px solid #fbf2d5;
+    border-radius: 10px;
+    background-color: #fbf2d5;
+    color: #ff8800;
+}
+.order1 {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+.order2 {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+.order3 {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+.order4 {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+.one {
+    justify-content: center;
+    align-self: center;
+    padding: 0px 5px;
+    font-family: 'Muli', sans-serif;
+    font-size: .6rem;
+}
+.del {
+    justify-content: center;
+    align-self: center;
+    padding-left: 15px;
+    font-family: 'Muli', sans-serif;
+    font-size: .6rem;
+}
+.dollar {
+    justify-content: center;
+    align-self: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Muli', sans-serif;
+    font-size: .9rem;
+}
+.dollarz {
+    justify-content: center;
+    align-self: center;
+    padding-left: 15px;
+}
+.zerodollar {
+    justify-content: end;
+    align-self: center;
+    padding: 0px 60px;
+    font-family: 'Muli', sans-serif;
+    font-size: .9rem;
+}
+.mTotal {
+    border: 1px solid #dad6d6;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin: 25px 0;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.total,
+.Amt {
+    font-family: 'Muli', sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.checkout {
+    width: 100.5%;
+    margin: -50px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.checkoutvalue {
+    margin: 15px;
+}
+.per {
+    font-size: .5rem;
+    font-family: 'Muli', sans-serif;
+}
+.box {
+    border: 1px solid #c2c2bd;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 4px 12px;
+    text-align: center;
+    font-size: .5rem;
+    font-family: 'Muli', sans-serif;
+}
+.box:hover {
+    background-color: #c2c2bd;
+    cursor: pointer;
+}
+.check {
+    align-self: center;
+    font-size: .6rem;
+    border: 1px solid #fcd661;
+    padding: 17px 34px;
+    border-radius: 15px 0 0 15px;
+    font-family: 'Muli', sans-serif;
+    background-color: #fcd661;
+}
+.check:hover {
+    transition: all .8s;
+    background-color: #fa6d3b;
+    border: 1px solid #fa6d3b;
+    cursor: pointer;
+    color: #ffffff;
+}
+
