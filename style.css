@@ -164,12 +164,19 @@ div .delivery {
     border-radius: 20px;
     border: none;
     background-color: #fa6d3b;
-    font-family: 'Muli', sans-serif;
-    text-align: center;
+    font-family: 'Muli',    sans-serif;
     padding: 10px 30px;
     color: #ffffff;
     outline: none;
     cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAC9ElEQVRIie3SX0hTURwH8HPuWdoSo0zFpYkmGCoaA7E0sjkTtUBEuEVmMzW1Pw9rsz9oMxc+qGk2UJxkzQcpC7UQiqQ0pEIRKzCQ9CHKSgz8g5V/5r3n3NODOEbzz9WcUPiF+/T7/c7nnj8ArOd/D5zSKD2lVJiEhvbxtQDpecWWacg4MQ4uMjkOi+viDOf22BvlStJDcWhsh4OLTM4AAACKVfmjyKQmYtSesReKqzRpKOpIE4pPDQAAAMlcgZErPambVykWaATqeZkOb73lVwOkLIuI0qeCiTuZAn0CnenY0Kxn3QS9/J1QeuFxEsW2UH3C9r9GcxSuJCG4Gal02dAn0Nm6xth0b3SC6OglpaBIecrfyIheKcpfT90nHFS1ouQrh8GmzTaOZL4hACFgDrAh0NXrHu+0tXzD6bKS5aBcdY4a7U24DHdHyhbqmR+e84PC3ZGb1zXsKA1BAw/ToL6XW6yf6hUS4htVycScUEGZr3SxXtuj/hN33+GIjuUmk4C0V2Zdot9CfdN61pv4xbQiVpu9FArAEju2xFEKEKsNg7KdT7CLR65EW/3IuozLMuNh8P6bTEzKLgChqCUBzUuS4cbyTsqZqZgIfd3DvFFbMDfPG7UFQl/3sKhhzkxxo6GT5iXN3j3VhEvxHd0DYWRwRhQ+OsRhU34DNuU3CKNDnKiZkcEZbNLdp5pw22vgKzV5Qm/nkLi/n5n9xKAfuoZ544X8RY8el2XGk8c1/VQgohZdXBQoaavvx2VZieLuXc964PriNjr1S1gxap6kuMnQQYtV3uJemwVXSHCtvloY/Di17I1+H5jGt3V3qT7IYVmodbgK9Vnh3YsvotH3rwe5CrVmxaB1+OK0CNJs7KEELywSQsnzuh6+9JRyVdC50Nzobbj2agv9OWb76ibGBVxX2E4vHvJYVdSCAwB5U0GJ8Kn3h+Vov/ZP4Jo8I2VZZBfUOrhCnUG6Wz6TN8++kaqcLLuD1uGKVHKuSCVfU3Q9/1R+A9j8FiIiC17rAAAAAElFTkSuQmCC');
+    background-repeat: no-repeat, repeat;
+    /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+    background-position: right 1.2em top 50%, 0 0;
+    /* icon size, then gradient */
+    background-size: .85em auto, 100%;
 }
 .fa-clock {
     color: #ffffff;
@@ -212,9 +219,9 @@ div .delivery {
 }
 .fa-concierge-bell {
     position: relative;
-    top: 8px;
+    top: 11px;
     left: 12px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .text {
     font-size: .7rem;
@@ -233,9 +240,9 @@ div .delivery {
 }
 .fa-pizza-slice {
     position: relative;
-    top: 8px;
+    top: 11px;
     left: 12px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .content-inner3 {
     grid-area: acy;
@@ -247,9 +254,9 @@ div .delivery {
 }
 .flaticon-noodles {
     position: relative;
-    top: 8px;
-    left: -8px;
-    font-size: 1.2rem;
+    top: 2px;
+    left: -9px;
+    font-size: 1.8rem;
 }
 .content-inner4 {
     grid-area: ady;
@@ -261,9 +268,9 @@ div .delivery {
 }
 .fa-hamburger {
     position: relative;
-    top: 8px;
+    top: 11px;
     left: 12px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .content-inner5 {
     grid-area: aey;
@@ -275,9 +282,9 @@ div .delivery {
 }
 .fa-drumstick-bite {
     position: relative;
-    top: 8px;
+    top: 11px;
     left: 12px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .content-inner6 {
     grid-area: afy;
@@ -289,9 +296,9 @@ div .delivery {
 }
 .fa-ice-cream {
     position: relative;
-    top: 8px;
+    top: 11px;
     left: 12px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .content-inner7 {
     grid-area: agy;
@@ -303,9 +310,9 @@ div .delivery {
 }
 .flaticon-thai-food {
     position: relative;
-    top: 8px;
-    left: -8px;
-    font-size: 1.2rem;
+    top: 2px;
+    left: -9px;
+    font-size: 1.8rem;
 }
 .content-inner8 {
     grid-area: ahy;
@@ -317,9 +324,9 @@ div .delivery {
 }
 .flaticon-sushi {
     position: relative;
-    top: 8px;
-    left: -8px;
-    font-size: 1.2rem;
+    top: 2px;
+    left: -9px;
+    font-size: 1.8rem;
 }
 .content-inner10 {
     grid-area: ajy;
@@ -692,4 +699,633 @@ div .delivery {
     cursor: pointer;
     color: #ffffff;
 }
+
+
+/* MEDIA QUERRY */
+
+/* MEDIA QUERRY FOR MOBILE DEVICE */
+
+
+/*
+@media () {
+
+    main {
+        border-radius: 0px;
+    }
+    .inner-main {
+        width: 85%;
+        height: auto;
+        border: 2px solid white;
+        background-color: white;
+        border-radius: 30px;
+        margin: 2.5rem auto;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "x"
+        "y";
+    }
+    .main-content {
+        width: auto;
+        height: auto;
+        grid-area: x;
+        border-radius: 40px;
+    }
+    .header {
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 30px auto;
+    }
+    .fa-bars {
+        font-size: 1.1rem;
+    }
+    .name {
+        font-size: 1.4rem;
+        margin: 32px 0 0 0;
+    }
+    
+    input[type=search] {
+        width: 60%;
+        height: 40px;
+        margin: 27px 0 0 0;
+    }
+    .icon {
+        position: relative;
+        left: 40px;
+        top: 38px;
+    }
+    .imgillus {
+        grid-area: a;
+        height: 20vh;
+        border-radius: 15px 0 0 15px;
+    }
+    div .delivery {
+        grid-area: b;
+        padding: 10px 10px 0;
+        font-size: 1rem;
+        margin: 15px auto 0;
+    }
+    .fee {
+        font-size: .6rem;
+        padding: 10px 10px 0;
+    }
+    .restaurant {
+        font-size: 1.4rem;
+    }
+    .deliver-now {
+        background-position: right 1em top 50%, 0 0;
+    }
+    .fa-clock {
+        color: #ffffff;
+        padding-right: 10px;
+        font-size: 1.2rem;
+    }
+    .second-content {
+        column-gap: 10px;
+    }
+    .content-inner1,
+    .content-inner2,
+    .content-inner3,
+    .content-inner4,
+    .content-inner5,
+    .content-inner6,
+    .content-inner7,
+    .content-inner8 {
+        width: 50px;
+        height: 80px;
+    }
+    .meal {
+        width: 35px;
+        height: 35px;
+        border-radius: 25px;
+    }
+    .meal:hover {
+        background-color: #ffffff;
+        border: #ffffff;
+    }
+    .fa-concierge-bell,
+    .fa-pizza-slice,
+    .fa-hamburger,
+    .fa-drumstick-bite,
+    .fa-ice-cream {
+        position: relative;
+        top: 5px;
+        left: 7px;
+        font-size: 1.2rem;
+    }
+    .flaticon-noodles,
+    .flaticon-thai-food,
+    .flaticon-sushi {
+        position: relative;
+        top: 4px;
+        left: -13px;
+        font-size: 1rem;
+    }
+    .content-inner10 {
+        width: 25px;
+        height: 25px;
+        border-radius: 8px;
+    }
+    .text {
+        font-size: 7px;
+    }
+
+    .third-content {
+        width: 85%;
+        height: auto;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: 30.67% 30.67% 30.67%;
+        grid-template-areas: "x y z"
+    }
+    .inner-content1 {
+        grid-area: x;
+    }
+    .inner-content2 {
+        grid-area: y;
+    }
+    .inner-content3 {
+        grid-area: z;
+    }
+    .image1 {
+        background-image: url(img/bagel-bg.jpg);
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .min {
+        display: inline-block;
+        width: fit-content;
+        height: fit-content;
+        font-size: .7rem;
+        font-family: 'Muli', sans-serif;
+        font-weight: bolder;
+        background-color: #ffffff;
+        padding: 10px;
+        border-radius: 0 10px 0 10px;
+    }
+    .image2 {
+        background-image: url(img/estaminet.jpg);
+    }
+    .image3 {
+        background-image: url(img/LaParisDakar.JPG);
+    }
+    .txt {
+        font-size: .9rem;
+        margin: 25px 0 15px 0;
+    }
+    .reviews {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        text-align: start;
+    }
+    .fa-star {
+        padding: 0 2px 0 0;
+    }
+    .fa-star:hover {
+        color: #fb5c00;
+        cursor: pointer;
+    }
+    .textz {
+        padding: 2px 4px 0 0;
+        font-size: .6rem;
+        font-family: 'Muli', sans-serif;
+    }
+    .textx {
+        padding: 2px 4px 0 0;
+        color: #999999;
+        font-size: .6rem;
+        font-family: 'Muli', sans-serif;
+    }    
+    .side-content {
+        width: 60%;
+        margin: 20px auto;
+        background-color: #fcfcfa;
+        grid-area: y;
+        border: .5px solid #f0f0f0;
+        border-radius: 0;
+    }
+    .side-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .fa-user {
+        margin: 50px 30px 0 0;
+    }
+    .numb {
+        margin: 40px 50px 0 0;
+    }
+    .order {
+        margin: -50px 0 20px 50px;
+        width: fit-content;
+        font-size: 1.3rem;
+        font-family: 'Muli', sans-serif;
+        font-weight: bolder;
+    }
+    .purple {
+        width: 75%;
+        height: auto;
+        border-radius: 20px;
+        background-color: #503e9d;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .six {
+        padding: 20px 0 0 25px;
+        font-size: .85rem;
+    }
+    .edit {
+        color: #e8c77c;
+        padding: 20px 15px 0 30px;
+        font-size: 1rem;
+    }
+    .orange {
+        padding: 10px;
+        width: fit-content;
+        height: fit-content;
+        margin: 10px 5px 5px 15px;
+        border-radius: 10px;
+        color: #e8c77c;
+        background-color: #614c97;
+        justify-content: center;
+        align-self: center;
+        cursor: pointer;
+    }
+    .orange:hover {
+        color: #ffffff;
+        background-color: #6802ac;
+        transition: ease-in .5s;
+    }
+    .timez {
+        color: #ffffff;
+        font-size: .8rem;
+        font-family: 'Muli', sans-serif;
+        padding: 25px;
+        justify-content: center;
+        align-self: center;
+    }
+    .choose {
+        color: #e8c77c;
+        font-size: .8rem;
+        font-family: 'Muli', sans-serif;
+        padding: 0px 10px;
+        justify-content: center;
+        align-self: center;
+    }
+    .order-placed {
+        width: 75%;
+        height: auto;
+        margin: 30px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .total,
+    .Amt {
+        font-family: 'Muli', sans-serif;
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+
+    .checkout {
+        width: 100%;
+        margin: -50px 0 0 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .checkoutvalue {
+        margin: 15px;
+    }
+    .per {
+        font-size: .5rem;
+        font-family: 'Muli', sans-serif;
+    }
+    .xit {
+        color: #000;
+    }
+
+
+
+}
+*/
+
+
+/* MEDIA QUERRY FOR IPAD SCREEN */
+
+@media (max-width: 768px) {
+
+    main {
+        border-radius: 0px;
+    }
+    .inner-main {
+        width: 85%;
+        height: auto;
+        border: 2px solid white;
+        background-color: white;
+        border-radius: 30px;
+        margin: 2.5rem auto;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "x"
+        "y";
+    }
+    .main-content {
+        width: auto;
+        height: auto;
+        grid-area: x;
+        border-radius: 40px;
+    }
+    .header {
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 30px auto;
+    }
+    .fa-bars {
+        font-size: 1.1rem;
+    }
+    .name {
+        font-size: 1.4rem;
+        margin: 32px 0 0 0;
+    }
+    
+    input[type=search] {
+        width: 60%;
+        height: 40px;
+        margin: 27px 0 0 0;
+    }
+    .icon {
+        position: relative;
+        left: 40px;
+        top: 38px;
+    }
+    .imgillus {
+        grid-area: a;
+        height: 20vh;
+        border-radius: 15px 0 0 15px;
+    }
+    div .delivery {
+        grid-area: b;
+        padding: 10px 10px 0;
+        font-size: 1rem;
+        margin: 15px auto 0;
+    }
+    .fee {
+        font-size: .6rem;
+        padding: 10px 10px 0;
+    }
+    .restaurant {
+        font-size: 1.4rem;
+    }
+    .deliver-now {
+        background-position: right 1em top 50%, 0 0;
+    }
+    .fa-clock {
+        color: #ffffff;
+        padding-right: 10px;
+        font-size: 1.2rem;
+    }
+    .second-content {
+        column-gap: 10px;
+    }
+    .content-inner1,
+    .content-inner2,
+    .content-inner3,
+    .content-inner4,
+    .content-inner5,
+    .content-inner6,
+    .content-inner7,
+    .content-inner8 {
+        width: 50px;
+        height: 80px;
+    }
+    .meal {
+        width: 35px;
+        height: 35px;
+        border-radius: 25px;
+    }
+    .meal:hover {
+        background-color: #ffffff;
+        border: #ffffff;
+    }
+    .fa-concierge-bell,
+    .fa-pizza-slice,
+    .fa-hamburger,
+    .fa-drumstick-bite,
+    .fa-ice-cream {
+        position: relative;
+        top: 5px;
+        left: 7px;
+        font-size: 1.2rem;
+    }
+    .flaticon-noodles,
+    .flaticon-thai-food,
+    .flaticon-sushi {
+        position: relative;
+        top: 4px;
+        left: -13px;
+        font-size: 1rem;
+    }
+    .content-inner10 {
+        width: 25px;
+        height: 25px;
+        border-radius: 8px;
+    }
+    .text {
+        font-size: 7px;
+    }
+
+    .third-content {
+        width: 85%;
+        height: auto;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: 30.67% 30.67% 30.67%;
+        grid-template-areas: "x y z"
+    }
+    .inner-content1 {
+        grid-area: x;
+    }
+    .inner-content2 {
+        grid-area: y;
+    }
+    .inner-content3 {
+        grid-area: z;
+    }
+    .image1 {
+        background-image: url(img/bagel-bg.jpg);
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .min {
+        display: inline-block;
+        width: fit-content;
+        height: fit-content;
+        font-size: .7rem;
+        font-family: 'Muli', sans-serif;
+        font-weight: bolder;
+        background-color: #ffffff;
+        padding: 10px;
+        border-radius: 0 10px 0 10px;
+    }
+    .image2 {
+        background-image: url(img/estaminet.jpg);
+    }
+    .image3 {
+        background-image: url(img/LaParisDakar.JPG);
+    }
+    .txt {
+        font-size: .9rem;
+        margin: 25px 0 15px 0;
+    }
+    .reviews {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        text-align: start;
+    }
+    .fa-star {
+        padding: 0 2px 0 0;
+    }
+    .fa-star:hover {
+        color: #fb5c00;
+        cursor: pointer;
+    }
+    .textz {
+        padding: 2px 4px 0 0;
+        font-size: .6rem;
+        font-family: 'Muli', sans-serif;
+    }
+    .textx {
+        padding: 2px 4px 0 0;
+        color: #999999;
+        font-size: .6rem;
+        font-family: 'Muli', sans-serif;
+    }    
+    .side-content {
+        width: 60%;
+        margin: 20px auto;
+        background-color: #fcfcfa;
+        grid-area: y;
+        border: .5px solid #f0f0f0;
+        border-radius: 0;
+    }
+    .side-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .fa-user {
+        margin: 50px 30px 0 0;
+    }
+    .numb {
+        margin: 40px 50px 0 0;
+    }
+    .order {
+        margin: -50px 0 20px 50px;
+        width: fit-content;
+        font-size: 1.3rem;
+        font-family: 'Muli', sans-serif;
+        font-weight: bolder;
+    }
+    .purple {
+        width: 75%;
+        height: auto;
+        border-radius: 20px;
+        background-color: #503e9d;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .six {
+        padding: 20px 0 0 25px;
+        font-size: .85rem;
+    }
+    .edit {
+        color: #e8c77c;
+        padding: 20px 15px 0 30px;
+        font-size: 1rem;
+    }
+    .orange {
+        padding: 10px;
+        width: fit-content;
+        height: fit-content;
+        margin: 10px 5px 5px 15px;
+        border-radius: 10px;
+        color: #e8c77c;
+        background-color: #614c97;
+        justify-content: center;
+        align-self: center;
+        cursor: pointer;
+    }
+    .orange:hover {
+        color: #ffffff;
+        background-color: #6802ac;
+        transition: ease-in .5s;
+    }
+    .timez {
+        color: #ffffff;
+        font-size: .8rem;
+        font-family: 'Muli', sans-serif;
+        padding: 25px;
+        justify-content: center;
+        align-self: center;
+    }
+    .choose {
+        color: #e8c77c;
+        font-size: .8rem;
+        font-family: 'Muli', sans-serif;
+        padding: 0px 10px;
+        justify-content: center;
+        align-self: center;
+    }
+    .order-placed {
+        width: 75%;
+        height: auto;
+        margin: 30px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .total,
+    .Amt {
+        font-family: 'Muli', sans-serif;
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+
+    .checkout {
+        width: 100%;
+        margin: -50px 0 0 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .checkoutvalue {
+        margin: 15px;
+    }
+    .per {
+        font-size: .5rem;
+        font-family: 'Muli', sans-serif;
+    }
+    .xit {
+        color: #000;
+    }
+
+
+
+}
+
+
 
